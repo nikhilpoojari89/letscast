@@ -1,0 +1,35 @@
+.btn-sl{
+    padding: .375rem 1.5rem!important;
+    font-size: 1rem!important;
+    font-family: inherit!important;
+    font-weight: 300!important;
+}
+
+.know-more-sm.btn-sl{
+    padding: .175rem 0.75rem!important;
+    font-size: .875rem!important;
+}
+
+.btn-yellow {
+    color: #090d24;
+    background-color: #ffdd00!important;
+    border-color: #ffdd00!important;
+    &:hover {
+        background-color: #f7c11e!important;
+        border-color: #f7c11e!important;
+    }
+}
+
+.btn-sl-job {
+    color: #ffffff;
+    background-color: #f05a27!important;
+    border-color: #f05a27!important;
+    padding: .375rem 1.5rem!important;
+    font-size: 1rem!important;
+    font-family: inherit!important;
+    font-weight: 300!important;
+    &:hover {
+        background-color: #cc4b20!important;
+        border-color: #cc4b20!important;
+    }
+}

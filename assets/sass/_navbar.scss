@@ -1,0 +1,125 @@
+/*****Fixed Header When Scroll****/
+.fixed-header {
+	position: fixed;
+	width: 100%;
+	float: left;
+	z-index: 10;
+	background: $white;
+	box-shadow: 0 10px 20px rgba(71,80,89,.15);
+	top: 0;
+}
+
+/*****Navbar Css****/
+header {
+	width: 100%;
+	float: left;
+	padding: 0;
+	position: absolute;
+	z-index: 2;
+	ul{
+		&.navbar-nav {
+			li {
+				font-size: 0.875rem;
+				@include media-breakpoint-up(xl) {
+					font-size: 1rem;
+				}
+				@include media-breakpoint-up(md) {
+					&.active {
+						a {
+							&.nav-link {
+								transition: all .5s ease 0s;
+								color: $primary;
+								&::after {
+									content: '';
+									display: block;
+									width: 2rem;
+									border-bottom: 1px solid $primary;
+								}
+							}
+							&.dropdown-toggle {
+								&::after {
+									border-top: none;
+									border-left: none;
+									border-right: none;
+								}
+							}
+						}
+					}
+				}
+				a {
+					&.nav-link {
+						transition: all .5s ease 0s;
+						&:hover {
+							@include media-breakpoint-up(md){
+								color: $primary;
+							}
+							// text-decoration: underline;
+							&::after {
+								content: '';
+								display: block;
+								width: 2rem;
+								// margin: 0 auto;
+								border-bottom: 1px solid $primary;
+								border-top: none;
+								border-left: none;
+								border-right: none;
+							}
+						}
+					}
+					&.dropdown-toggle {
+						&::after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@include media-breakpoint-only(sm) {
+	.socio-navbar {
+		.navbar-nav {
+			li {
+				a {
+					margin: 0 45px 8px 45px!important;
+				}
+			} 
+		} 
+	} 
+}
+
+@include media-breakpoint-down(sm) {
+	#navbarResponsive {
+		position: absolute;
+		background: $white;
+		width: 100%;
+		top: 71px;
+		z-index: 9;
+		left: 0;
+		padding: 15px;
+	}
+	.socio-navbar {
+		.navbar-nav {
+			li {
+				a {
+					margin: 0 0 8px 0;
+					color: $white;
+					padding: 10px!important;
+					border-radius: 4px;
+					font-weight: 600;
+					// font-family: fira sans,sans-serif;
+					background: $primary;
+				}
+			}
+			.dropdown-menu {
+				padding: .5rem 1rem .1rem 1rem;
+				font-size: 0.875rem;
+				margin-bottom: 0.5rem;
+				border: 0;
+				background-color: #e6e6e6;
+			} 
+		} 
+	} 
+}
