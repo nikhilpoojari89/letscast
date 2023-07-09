@@ -4,7 +4,7 @@
 	width: 100%;
 	float: left;
 	z-index: 10;
-	background: $white;
+	background: #080808;
 	box-shadow: 0 10px 20px rgba(71,80,89,.15);
 	top: 0;
 }
@@ -27,48 +27,31 @@ header {
 					&.active {
 						a {
 							&.nav-link {
-								transition: all .5s ease 0s;
-								color: $primary;
-								&::after {
-									content: '';
-									display: block;
-									width: 2rem;
-									border-bottom: 1px solid $primary;
-								}
-							}
-							&.dropdown-toggle {
-								&::after {
-									border-top: none;
-									border-left: none;
-									border-right: none;
-								}
+								transition: all .3s;
+								color: $white;
+								font-weight: bold;
+								opacity: 1;
 							}
 						}
 					}
 				}
 				a {
 					&.nav-link {
-						transition: all .5s ease 0s;
+						transition: all .3s;
+						color: $white;
+						opacity: 0.71;
+						@include media-breakpoint-down(md) {
+							opacity: 0.6;
+						}
 						&:hover {
 							@include media-breakpoint-up(md){
-								color: $primary;
-							}
-							// text-decoration: underline;
-							&::after {
-								content: '';
-								display: block;
-								width: 2rem;
-								// margin: 0 auto;
-								border-bottom: 1px solid $primary;
-								border-top: none;
-								border-left: none;
-								border-right: none;
+								color: $white;
+								opacity: 1;
 							}
 						}
-					}
-					&.dropdown-toggle {
-						&::after {
-							display: none;
+						@include media-breakpoint-up(md) {
+							padding-right: 1.5rem!important;
+							padding-left: 1.5rem!important;
 						}
 					}
 				}
@@ -79,7 +62,7 @@ header {
 
 
 @include media-breakpoint-only(sm) {
-	.socio-navbar {
+	.letscast-navbar {
 		.navbar-nav {
 			li {
 				a {
@@ -90,17 +73,17 @@ header {
 	} 
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
 	#navbarResponsive {
 		position: absolute;
-		background: $white;
+		background: $tertiary;
 		width: 100%;
 		top: 71px;
 		z-index: 9;
 		left: 0;
 		padding: 15px;
 	}
-	.socio-navbar {
+	.letscast-navbar {
 		.navbar-nav {
 			li {
 				a {

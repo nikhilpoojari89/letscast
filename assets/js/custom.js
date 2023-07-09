@@ -11,16 +11,26 @@ $(window).on ('load', function (){
     $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(350).css({'overflow':'visible'});
 
-    //Click To Scroll Down JS
-    $(".navigate-down").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".scroll-down").offset().top
-        }, 1500);
-    });
 });
 
 /******************Document Ready JS********************/
 $(document).ready(function() {
+
+    //Scroll To Top JS
+    $(window).on( 'scroll', function(){
+        if ($(window).scrollTop() > 600) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
+
+    $(document.body).on('click', '.scrollToTop', function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
 
     //NOFILTER Stream Video Popup JS
     var $videoSrc;  
@@ -71,11 +81,6 @@ $(document).ready(function() {
 
 });
 
-//Contact Form Floating JS
-$(".floating-form").on("click",".floating-form-icon, .closeit",function(e){
-    e.preventDefault();
-    $(".floating-form").toggleClass("opened");
-});
 
 //Navbar Fixed Header When Scroll JS
 $(window).scroll(function(){

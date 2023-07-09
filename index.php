@@ -1,417 +1,514 @@
-<?php $title = "SocioLadder - Home"; ?>
+<?php $title = "Home"; ?>
 <?php include 'header.php' ?>
-    <section class="home-banner-section banner-section banner-section-medium mb-5">
-        <div class="container">
-            <div class="row py-4 py-md-5 py-xl-5 mt-md-4 justify-content-center text-center text-md-left">
-                <div class="col-md-6 align-self-center video-section">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="videoWrapper videoWrapper-res js-videoWrapper">
-                                <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/5JNo09C_0ug?enablejsapi=1&autoplay=1&modestbranding=1&rel=0"></iframe>
-                                <!-- <video id="video-play" class="videoIframe" src="/assets/SustainEverseAV.mp4"></video> -->
-                                <button class="videoPoster js-videoPoster m-0 p-0 w-100 position-absolute border-0 overflow-hidden cursor-pointer" style="background-image:url(public/images/png/home-video-poster.png);"></button>
+
+    <!--************ Title With Search Box Section *************-->
+    <section class="home-banner-section banner-section banner-section-full">
+        <div class="container-fluid">
+            <div class="row py-5 mt-4 justify-content-center">
+                <div class="col-12">
+                    <div class="row justify-content-center search-section">
+                        <div class="col-md-8 col-xl-6 align-self-center text-white">
+                            <h1 class="search-title my-4 line-height-13 font-weight-semibold text-center">
+                                Explore the vast Array of <br class="d-none d-lg-block"/>Entertainment Careers
+                            </h1>
+                            <div class="container h-100">
+                                <div class="row justify-content-center h-100">
+                                    <div class="col-md-10 col-lg-8 search-topic w-100">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <input class="search_input" type="text" name="" placeholder="Search here...">
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#" class="search_icon">
+                                                    <img src="./public/images/svg/search.svg" width="20" alt="Search Icon">
+                                                    <span class="ml-2">Search</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-md-6 align-self-center">
-                    <img src="./public/images/png/home-banner-img.png" class="img-fluid banner-img home-banner"
-                         alt="">
-                </div> -->
-                <div class="col-md-6 align-self-center">
-                    <h1 class="ml-md-5 mt-4 line-height-1 font-weight-bold">
-                        Global Unity<br class="d-none d-lg-block"/>
-                        for Human Equity
-                    </h1>
-                    <p class="ml-md-5 mt-4 line-height-13 mb-0 mb-sm-3 h6 font-weight-600">
-                        A global alliance of socially conscious individuals,<br class="d-none d-lg-block"/> companies, foundations, philanthropists, influencers,<br class="d-none d-lg-block"/> private and government agencies to come together for<br class="d-none d-lg-block"/> the common good of helping create a better world –<br class="d-none d-lg-block"/> backed by transparency, accountability and right intent!
-                    </p>
-                </div>
-            </div>
-            <div class="round-circle-lg pb-3 pb-sm-0">
-
-                <div class="round-circle-inner mr-2 circle-container">
-                    <div class="circle">
-                        <div class="front">
-                            <img src="public/images/png/vision.png" />
-                        </div>
-                        <div class="back">
-                            <img class="back-logo" src="public/images/png/vision-back.png" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="round-circle-inner mr-2 circle-container">
-                    <div class="circle">
-                        <div class="front">
-                            <img src="public/images/png/mission.png" />
-                        </div>
-                        <div class="back">
-                            <img class="back-logo" src="public/images/png/mission-back.png" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="round-circle-inner mr-2 circle-container">
-                    <div class="circle">
-                        <div class="front">
-                            <img src="public/images/png/goals.png" />
-                        </div>
-                        <div class="back">
-                            <img class="back-logo" src="public/images/png/goals-back.png" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="round-circle-inner mr-2">
-                    <img src="public/images/png/home-last-mile.png"/>
-                </div>
-                <div class="round-circle-inner mr-2">
-                    <img src="public/images/png/home-accurate-impact.png"/>
-                </div>
-                <div class="round-circle-inner mr-2">
-                    <img src="public/images/png/home-transparency.png"/>
-                </div> -->
             </div>
         </div>
-        <!--Scroll Down Div-->
-        <span class="scroll-down">&nbsp;</span>
     </section>
+    
 
-    <section class="home-banner-sec">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-5 col-lg-4 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left">
-                    <div class="home-banner-item-sub">
-                        <h2 class="text-black font-weight-bold" data-aos="fade-right">SocioLadder</h2>
-                        <!-- <p class="line-height-13 font-weight-600 h6" data-aos="fade-right">An IBM Blockchain Powered platform<br class="d-none d-md-block"/> for donors and ground level charities.</p> -->
-                        <!-- <p class="line-height-13 font-weight-600 h6" data-aos="fade-right">A platform for charities and donors to<br class="d-none d-md-block"/> connect with a clear and articulated<br class="d-none d-md-block"/> focus on transparency and social<br class="d-none d-md-block"/> Impact reporting.</p> -->
-                        <p class="line-height-13 font-weight-600 h6">SocioLadder is a social impact crowdfunding platform for charities and donors to connect with clear and articulated focus on transparency. Our blockchain enabled global platform is built on creating a societal revolution through philanthropy wherein we envision to bring complete transparency and accountability into the donation process.</p>
-                        <a href="socioladder.php" data-aos="fade-right" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3" data-aos="fade-right">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
+    <!--************ Counter Section *************-->
+    <section>
+        <div class="row">
+            <div class="col-12">
+                <div class="row justify-content-center text-white landing-page-counter">
+                    <div class="col-lg-10 col-xl-8 text-center">
+                        <div class="row">
+                            <div class="col-sm-4 my-4 my-sm-0">
+                                <h1 class="font-weight-medium mb-1">1,9<span class="text-primary">K+</span></h1>
+                                <div><small class="opacity-7">Ready Job Vacancy</small></div>
                             </div>
-                        </div> -->
+                            <div class="col-sm-4 my-4 my-sm-0">
+                                <h1 class="font-weight-medium mb-1">276<span class="text-primary">K+</span></h1>
+                                <div><small class="opacity-7">Job Seekers Active</small></div>
+                            </div>
+                            <div class="col-sm-4 my-4 my-sm-0">
+                                <h1 class="font-weight-medium mb-1">3,4<span class="text-primary">K+</span></h1>
+                                <div><small class="opacity-7">Incorporated Company</small></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-2 home-banner-item-sub align-self-center order-2 mx-sm-4 px-sm-4 mx-lg-3 px-lg-3" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
+            </div>
+        </div>
+    </section>
+
+
+    <!--************ Exclusive Benefits Section *************-->
+    <section class="pt-100 letscast-benefits">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-xl-8">
+                    <h2 class="font-weight-bold mb-4 text-center text-secondary line-height-15" data-aos="fade-up">Supercharge Your Career with LetsCast<br class="d-none d-lg-block"/> Unlock Exclusive Benefits!</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-12 text-center">
+                            <div class="mb-4" data-aos="fade-up">
+                                <p class="mb-3 opacity-4 text-light-new line-height-15">Are you ready to take your career to new heights? Let us introduce you to the<br class="d-none d-xl-block"/> key benefits that await when you apply via LetsCast, the ultimate platform<br class="d-none d-xl-block"/> designed to propel your professional journey.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 align-self-center" data-aos="fade-left">
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 mt-4 px-md-4" data-aos="fade-up">
+                    <div class="card-group-item h-100">
+                        <a class="card-link" href="javascript:void(0);">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card-img d-flex justify-content-between">
+                                        <div>
+                                            <img class="card-img-top" src="./public/images/svg/career-img-1.svg" alt="" />
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h3 class="card-num font-weight-bold">1</h3>
+                                        </div>
+                                    </div>
+                                    <h6 class="card-title my-4 font-weight-semibold">Align your career opportunities with Industry linkages</h6>
+                                    <p class="card-desc mt-0 line-height-13">Sample text can come here sam ple text can come here.</p>
+                                    <span class="card-btn font-min">Get Started <img class="ml-2 mt-n1" src="./public/images/svg/get-started-arrow.svg" width="16" alt="Get Started" /></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-4 px-md-4" data-aos="fade-up">
+                    <div class="card-group-item h-100">
+                        <a class="card-link" href="javascript:void(0);">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card-img d-flex justify-content-between">
+                                        <div>
+                                            <img class="card-img-top" src="./public/images/svg/career-img-2.svg" alt="" />
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h3 class="card-num font-weight-bold">2</h3>
+                                        </div>
+                                    </div>
+                                    <h6 class="card-title my-4 font-weight-semibold">Get a free registration, create digital portolio and share</h6>
+                                    <p class="card-desc mt-0 line-height-13">Sample text can come here sam ple text can come here.</p>
+                                    <span class="card-btn font-min">Get Started <img class="ml-2 mt-n1" src="./public/images/svg/get-started-arrow.svg" width="16" alt="Get Started" /></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-4 px-md-4" data-aos="fade-up">
+                    <div class="card-group-item h-100">
+                        <a class="card-link" href="javascript:void(0);">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card-img d-flex justify-content-between">
+                                        <div>
+                                            <img class="card-img-top" src="./public/images/svg/career-img-3.svg" alt="" />
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h3 class="card-num font-weight-bold">3</h3>
+                                        </div>
+                                    </div>
+                                    <h6 class="card-title my-4 font-weight-semibold">Connect directly with people of similar career interests</h6>
+                                    <p class="card-desc mt-0 line-height-13">Sample text can come here sam ple text can come here.</p>
+                                    <span class="card-btn font-min">Get Started <img class="ml-2 mt-n1" src="./public/images/svg/get-started-arrow.svg" width="16" alt="Get Started" /></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-4 px-md-4" data-aos="fade-up">
+                    <div class="card-group-item h-100">
+                        <a class="card-link" href="javascript:void(0);">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <div class="card-img d-flex justify-content-between">
+                                        <div>
+                                            <img class="card-img-top" src="./public/images/svg/career-img-4.svg" alt="" />
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h3 class="card-num font-weight-bold">4</h3>
+                                        </div>
+                                    </div>
+                                    <h6 class="card-title my-4 font-weight-semibold">Get assistance to select right courses based on your interest</h6>
+                                    <p class="card-desc mt-0 line-height-13">Sample text can come here sam ple text can come here.</p>
+                                    <span class="card-btn font-min">Get Started <img class="ml-2 mt-n1" src="./public/images/svg/get-started-arrow.svg" width="16" alt="Get Started" /></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--************ Why NYFA? Section *************-->
+    <section class="mt-100 bg-secondary">
+        <div class="container">
+            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
+                <div class="col-md-7 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left">
+                    <div class="home-banner-item-sub" data-aos="fade-right">
+                        <h2 class="text-white font-weight-bold">WHY NYFA ?</h2>
+                        <p class="line-height-15 text-white opacity-4 font-weight-light h6 my-4">Sample text can come here Sample text can come hereSample text can come hereSample text can come hereSample text can come hereSample text can come hereSample text can come here</p>
+                        <a href="socioladder.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-2">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-5 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 align-self-center" data-aos="fade-left">
                     <img src="./public/images/png/home-socioladder-org.png" class="home-banner-item-img img-fluid"/>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
 
-    <section class="">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-4 home-banner-item text-center text-lg-left mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="./public/images/png/home-sociopay.png" class="home-banner-item-img img-fluid"/>
-                </div>
-                <div class="col-md-3 home-banner-item-sub align-self-center mx-sm-3 px-sm-3 d-none d-md-block text-center" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                </div>
-                <div class="col-md-4 home-banner-item inner align-self-center text-center text-md-left" data-aos="fade-left">
-                    <div class="home-banner-item-sub">
-                        <h2 class="text-black font-weight-bold">SocioPay</h2>
-                        <p class="line-height-13 font-weight-600 h6">SocioPay is a scan and pay mobile application and digital wallet platform powered by Noqodi for contactless payments. This unique payment solution provides a robust GiveBack program to support charities and Cashback eligibility to Wallets</p>
-                        <a href="sociopay.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
+    <!--************ About Section *************-->
+    <section class="pt-100 pb-lg-5 letscast-about">
+        <div class="container-fluid position-relative">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="font-weight-bold mb-4 text-center text-secondary line-height-15" data-aos="fade-up">About</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-8 col-md-6 col-lg-8 col-xl-12 text-center">
+                            <div class="" data-aos="fade-up">
+                                <p class="mb-0 opacity-4 text-light-new line-height-15">Sample text can come here Sample text can come here Sample text<br class="d-none d-xl-block"/> can come hereSample text can come hereSample text can come<br class="d-none d-xl-block"/> hereSample text can come here</p>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-5 col-lg-4 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left">
-                    <div class="home-banner-item-sub">
-                        <h2 class="text-black font-weight-bold" data-aos="fade-right">SustainEverse</h2>
-                        <!-- <p class="line-height-13 font-weight-600 h6" data-aos="fade-right">A platform for charities and donors to<br class="d-none d-md-block"/> connect with a clear and articulated<br class="d-none d-md-block"/> focus on transparency and social<br class="d-none d-md-block"/> Impact reporting.</p> -->
-                        <p class="line-height-13 font-weight-600 h6" data-aos="fade-up">
-                            An #actiondriven global network that envisions to collaborate and connect right stakeholders to build and promote equity and sustainability. SustainEverse has proudly joined hands with United Nations Global Compact Network India to embolden social impact globally.
-                        </p>
-                        <a href="sustaineverse.php" data-aos="fade-right" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3" data-aos="fade-right">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-2 home-banner-item-sub align-self-center order-2 mx-sm-4 px-sm-4 mx-lg-3 px-lg-3" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                </div>
-                <div class="col-md-4 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 align-self-center" data-aos="fade-left">
-                    <img src="./public/images/png/home-sustaineverse.png" class="home-banner-item-img img-fluid"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
-
-    <!--center-img-->
-    <!-- <div class="center-img py-3 my-5 d-flex justify-content-center" data-aos="fade-up">
-        <div class="center-img-text text-center">
-            <h1 class="text-center font-weight-bold" data-aos="fade-up">SustainEverse</h1>
-            <p class="text-white text-center mb-4 line-height-13 font-weight-600 h6"  data-aos="fade-up">
-            SustainEverse is a first of its kind sustainability Networking platform that uses expertise in both sustainability and technology to power societal change. SocioLadder joins hands with Global Compact Network India (GCNI) to drive inclusivity in society and hardwire sustainability into all the key facets of global development.
-            </p>
-            <a href="sustaineverse.php" class="btn-sl btn btn-primary rounded-pill text-center mt-2 mb-4 know-more-sm" data-aos="fade-up">Know More</a>
-            <div class="social-sec">
-                <p class="social-sec-title text-white mb-1">Connect</p>
-                <div class="d-flex">
-                    <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                    <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                    <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                    <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                    <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--center-img-->
-
-    <section class="">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-4 home-banner-item text-center text-lg-left mb-4 mb-md-0 align-self-center" data-aos="fade-right">
-                    <!-- <img src="./public/images/png/home-nofilter-with-play.png" class="home-banner-item-img img-fluid"/> -->
-                    <a href="#" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/O63mu45fsXI" data-target="#nofilter_modal">
-                        <img src="./public/images/png/home-nofilter-with-play.png" class="home-banner-item-img img-fluid"/>
-                    </a>
-                </div>
-                <div class="col-md-3 home-banner-item-sub align-self-center mx-sm-3 px-sm-3 d-none d-md-block text-center" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                    <!-- <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/O63mu45fsXI" data-target="#nofilter_modal">Play Video 1 - autoplay</button> -->
-                </div>
-                <div class="col-md-4 home-banner-item inner align-self-center text-center text-md-left" data-aos="fade-left">
-                    <div class="home-banner-item-sub">
-                        <!-- <h3 class="text-black font-weight-bold">No Filter Stream - By SL Foundation</h3> -->
-                        <h3 class="text-black font-weight-bold">NoFilter</h3>
-                        <p class="line-height-13 font-weight-600 h6">NOFILTER Stream is an Initiative by SocioLadder to build communities and bring awareness and education through celebrity conversations, fundraiser events and corporate game changer stories online.</p>
-                        <a href="nofilter.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
-
-    <section class="">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-5 col-lg-4 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left" data-aos="fade-right">
-                    <div class="home-banner-item-sub">
-                        <h3 class="text-black font-weight-bold">SL Foundation</h3>
-                        <p class="line-height-13 font-weight-600 h6">Shaped by the vision to foster and<br class="d-none d-xl-block"/> showcase global initiatives for income<br class="d-none d-xl-block"/> inequity and wealth distribution.</p>
-                        <a href="sl-foundation.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-2 home-banner-item-sub align-self-center order-2 mx-sm-3 px-sm-3" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                </div>
-                <div class="col-md-4 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0" data-aos="fade-left">
-                    <img src="./public/images/png/home-sl-foundation.png" class="home-banner-item-img img-fluid"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
-
-    <section class="">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-4 home-banner-item text-center text-lg-left mb-4 mb-md-0 align-self-center" data-aos="fade-right">
-                    <img src="./public/images/png/home-sociocsr.png" class="home-banner-item-img img-fluid"/>
-                </div>
-                <div class="col-md-3 home-banner-item-sub align-self-center mx-sm-3 px-sm-3 d-none d-md-block text-center" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                </div>
-                <div class="col-md-4 home-banner-item inner align-self-center text-center text-md-left" data-aos="fade-left">
-                    <div class="home-banner-item-sub">
-                        <h3 class="text-black font-weight-bold">SocioCSR</h3>
-                        <p class="line-height-13 font-weight-600 h6">SocioCSR provides a customized, state-of-the art CSR and Sustainability management software to measure, track and report the activities and progress therewith. SocioCSR along with end-to-end consulting services in CSR and Sustainability, including Monitoring, provides Evaluation and Impact Assessment of Social and Environment Programs and Projects.</p>
-                        <a href="socio-csr.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="text-center py-5" data-aos="fade-in">
-        <div class="row mx-0">
-            <div class="col-12 text-center">
-                <img src="./public/images/png/border-circle.png" width="700" class="home-border border-img">
-            </div>
-        </div>
-    </section>
-
-    <section class="pb-5">
-        <div class="container">
-            <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
-                <div class="col-md-5 col-lg-4 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left" data-aos="fade-right">
-                    <div class="home-banner-item-sub">
-                        <h3 class="text-black font-weight-bold">Socio Fellowship</h3>
-                        <p class="line-height-13 font-weight-600 h6">SocioLadder invites you to be a part of its exclusive Social Fellowship Program that will place you on the forefront of a global movement for accentuating change and equity, across the world.</p>
-                        <a href="socio-fellowship.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-4">Know More</a>
-                        <!-- <div class="social-sec d-block d-md-flex mt-3 mr-3">
-                            <p class="social-sec-title mr-md-3 mb-2 mb-md-0">Connect</p>
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <div class="round-icon mr-2"><a class="text-black" href="#" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-linkedin-in" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> </a></div>
-                                <div class="round-icon mr-2"><a class="text-white" href="#" target="_blank"> <i class="fab fa-youtube" aria-hidden="true"></i> </a></div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-2 home-banner-item-sub align-self-center order-2 mx-sm-3 px-sm-3" data-aos="fade-down">
-                    <img src="./public/images/png/yellow_icon.png" class="home-banner-item-yellow img-fluid"/>
-                </div>
-                <div class="col-md-4 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 align-self-center" data-aos="fade-left">
-                    <img src="./public/images/png/home-socio-fellowship-org.png" class="home-banner-item-img img-fluid"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-yellow pt-5 pb-5">
-        <div class="container">
+            
+            <div class="about-img-1 d-none d-md-block"><img src="./public/images/png/about-img-1.png" alt="About"></div>
+            <div class="about-img-2 d-none d-md-block"><img src="./public/images/svg/about-img-2.svg" alt="About"></div>
+            
             <div class="row justify-content-center">
-                <div class="col-lg-12 col-xl-10 text-center" data-aos="fade-up">
-                    <h2 class="d-md-flex flex-wrap flex-lg-nowrap text-black my-5 notice-block-txt-main word-slider-section">
-                        <span>We are here to</span> 
-                        <span class="word-slider text-white mx-2 text-center" style="width: 165px;">
-                            <h2 class="font-weight-bold notice-block-txt-main">reimagine</h2>
-                            <h2 class="font-weight-bold notice-block-txt-main">change</h2>
-                            <h2 class="font-weight-bold notice-block-txt-main">reinvent</h2>
-                            <h2 class="font-weight-bold notice-block-txt-main">transform</h2>
-                            <h2 class="font-weight-bold notice-block-txt-main">facilitate</h2>
-                            <h2 class="font-weight-bold notice-block-txt-main">empower</h2>
-                        </span>
-                        <span>philanthropy across the world</span>
-                    </h2>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div><img src="./public/images/svg/tick.svg" width="23" alt="Check"></div>
+                            <div class="align-self-center ml-3"><span>Sample text can come here Sample tex</span></div>
+                        </div>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div><img src="./public/images/svg/tick.svg" width="23" alt="Check"></div>
+                            <div class="align-self-center ml-3"><span>Sample text can come here Sample text Sample text</span></div>
+                        </div>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div><img src="./public/images/svg/tick.svg" width="23" alt="Check"></div>
+                            <div class="align-self-center ml-3"><span>Sample text can come here</span></div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-            <!-- <div class="d-flex flex-wrap flex-md-nowrap justify-content-center">
-                <div class="mr-md-5 mb-3 mb-md-0">
-                    <p class="text-black h6">
-                        We aim to create a positive<br class="d-none d-lg-block"/> impact by designing and<br class="d-none d-lg-block"/> supporting initiatives in such a<br class="d-none d-lg-block"/> way that they meet an actual<br class="d-none d-lg-block"/> documented need and they<br class="d-none d-lg-block"/> provide a solution that is both<br class="d-none d-lg-block"/> measurable and sustainable. 
-                    </p>
-                </div>
-                <div class="ml-md-5">
-                    <p class="text-black h6">
-                        A vision to bring complete<br class="d-none d-lg-block"/> transparency and accountability into<br class="d-none d-lg-block"/> the donation process by leveraging<br class="d-none d-lg-block"/> the power of modern technology<br class="d-none d-lg-block"/> to create an eco-system that is<br class="d-none d-lg-block"/> robust, scalable and transformative.
-                    </p>
-                </div>
-            </div> -->
         </div>
     </section>
 
-    <!-- <section class="py-5 bg-yellow">
-        <div class="container">
-            <div class="row py-3">
-                <div class="col-12 text-center">
-                    <h2 class="font-weight-bold mb-4">Need to talk?</h2>
-                    <a href="locations.php#get-in-touch-section" class="btn-sl btn btn-primary rounded-pill">Contact Us</a>
+
+    <!--************ Join Us Section *************-->
+    <section class="pt-100 pb-100 letscast-joinus">
+        <div class="container position-relative">
+            <div class="row justify-content-center mb-2">
+                <div class="col-lg-8">
+                    <h5 class="font-weight-bold mb-4 text-center text-secondary line-height-15 title-lines" data-aos="fade-up">Join us on every major platform!</h5>
                 </div>
             </div>
+
+            <div class="row justify-content-start">
+
+                <div class="col-12">
+                    <div class="row custom-nav-tabs-section" data-aos="fade-up">
+                        <div class="col-12">
+                            <div class="row custom-nav-tabs-div">
+                                <div class="col-12">
+
+                                    <div class="custom-nav-tabs-wrapper">
+            
+                                        <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2" id="more_info_tabs" role="tablist">
+                                            <li class="nav-item mr-3" role="presentation">
+                                                <a class="nav-link active rounded-pill font-serif font-weight-semibold" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">Degree Programs</a>
+                                            </li>
+                                            <li class="nav-item mr-3" role="presentation">
+                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">Certificate Programs</a>
+                                            </li>
+                                            <li class="nav-item mr-3" role="presentation">
+                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">Short-term Workshops</a>
+                                            </li>
+                                            <li class="nav-item mr-3" role="presentation">
+                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false">Youth Programs</a>
+                                            </li>
+                                            <li class="nav-item mr-3" role="presentation">
+                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab" aria-controls="pills-five" aria-selected="false">Study Abroad with NYFA</a>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab" aria-controls="pills-six" aria-selected="false">Online Programs</a>
+                                            </li>
+                                        </ul>
+            
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div class="tab-content" id="pills-tabContent">
+            
+                                <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+            
+                                    <div class="row">
+                                        <div class="col-12">
+
+                                            <div class="bg-white custom-border rounded-lg py-4 mt-2">
+
+                                                <section class="py-2 course-listing-section">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-2">
+                                                                <div><img src="./public/images/svg/about-img-2.svg" width="400" alt=""></div>
+                                                            </div>
+                                                            <div class="col-md-10 px-2 px-sm-5">
+                                                                <div class="row" id="courses-listing-slider">
+
+                                                                    <div class="col-md-4 mt-4">
+                                                                        <div class="card-group-item shadow h-100 position-relative">
+                                                                            <a class="card-link" href="javascript:void(0);">
+                                                                                <div class="card border-0 bg-transparent">
+                                                                                    <div class="position-relative">
+                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
+                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
+                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 1</p>
+                                                                                            <span><small>Sample Text</small></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-md-4 mt-4">
+                                                                        <div class="card-group-item shadow h-100 position-relative">
+                                                                            <a class="card-link" href="javascript:void(0);">
+                                                                                <div class="card border-0 bg-transparent">
+                                                                                    <div class="position-relative">
+                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
+                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
+                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 2</p>
+                                                                                            <span><small>Sample Text</small></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-md-4 mt-4">
+                                                                        <div class="card-group-item shadow h-100 position-relative">
+                                                                            <a class="card-link" href="javascript:void(0);">
+                                                                                <div class="card border-0 bg-transparent">
+                                                                                    <div class="position-relative">
+                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
+                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
+                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 3</p>
+                                                                                            <span><small>Sample Text</small></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-md-4 mt-4">
+                                                                        <div class="card-group-item shadow h-100 position-relative">
+                                                                            <a class="card-link" href="javascript:void(0);">
+                                                                                <div class="card border-0 bg-transparent">
+                                                                                    <div class="position-relative">
+                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
+                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
+                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 4</p>
+                                                                                            <span><small>Sample Text</small></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+            
+                                </div>
+            
+                                <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                           
+                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
+            
+                                                <h4 class="title-color">Certificate Programs</h4>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+
+                                    <div class="row">
+                                        <div class="col-12">
+            
+                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
+            
+                                                <h4 class="title-color">Short-term Workshops</h4>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
+
+                                    <div class="row">
+                                        <div class="col-12">
+            
+                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
+            
+                                                <h4 class="title-color">Youth Programs</h4>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
+
+                                    <div class="row">
+                                        <div class="col-12">
+            
+                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
+            
+                                                <h4 class="title-color">Study Abroad with NYFA</h4>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-six-tab">
+
+                                    <div class="row">
+                                        <div class="col-12">
+            
+                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
+            
+                                                <h4 class="title-color">Online Programs</h4>
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+            
+
         </div>
-    </section> -->
-    <!-- <a class="up" href="#">Scroll Up &darr;</a> -->
+    </section>
+
+
 <?php include 'footer.php' ?>
+
+<script>
+    //Scroll Left/Right on Prev/Next Button Click JS
+    function slide(direction){
+        var container = document.getElementById('more_info_tabs');
+        scrollCompleted = 0;
+        var slideVar = setInterval(function(){
+            if(direction == 'left'){
+                container.scrollLeft -= 18;
+            } else {
+                container.scrollLeft += 18;
+            }
+            scrollCompleted += 10;
+            if(scrollCompleted >= 100){
+                window.clearInterval(slideVar);
+            }
+        }, 50);
+    }
+
+    //courses Slider JS
+    $('#courses-listing-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        prevArrow:"<button type='button' class='slick-prev pull-left'><img src='./public/images/svg/play-btn.svg' width='35' alt='Prev'></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><img src='./public/images/svg/play-btn.svg' width='35' alt='Next'></button>",
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+</script>

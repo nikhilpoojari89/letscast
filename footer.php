@@ -1,96 +1,50 @@
-<footer class="pt-5 bg-light-2 w-100 position-relative">
+<footer class="pt-3 w-100 position-relative">
     <div class="container">
         <div class="row">
-            
+
             <div class="col-12">
-                <div class="">
-                    <div class="d-flex justify-content-center">
-                        <h5 class="mr-3"><a class="text-black" href="https://www.facebook.com/SocioLadder/" target="_blank"> <i class="fab fa-facebook-f"></i> </a></h5>
-                        <h5 class="mr-3"><a class="text-black" href="https://twitter.com/socioladder" target="_blank"> <i class="fab fa-twitter"></i> </a></h5>
-                        <h5 class="mr-3"><a class="text-black" href="https://www.linkedin.com/company/uevsocioladder/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></h5>
-                        <h5 class="mr-3"><a class="text-black" href="https://www.instagram.com/socioladder/" target="_blank"> <i class="fab fa-instagram"></i> </a></h5>
-                        <h5 class="mr-3"><a class="text-black" href="https://www.youtube.com/channel/UCzqRhLscM0ERFXoTwtuFfrQ" target="_blank"> <i class="fab fa-youtube"></i> </a></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 mt-3">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-md-12">
-                        <div class="">
-                            <ul class="menu-list footer-inside-menu list-unstyled h6 d-md-flex justify-content-between text-center text-md-left">
-                                <li class="line-height-2">
-                                    <a class="text-black" href="socioladder.php">SocioLadder </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="sociopay.php">SocioPay </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="sustaineverse.php">SustainEverse </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="nofilter.php">NoFilter </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="sl-foundation.php">SL Foundation </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="socio-csr.php">SocioCSR </a>
-                                </li>
-                                <li class="line-height-2">
-                                    <a class="text-black" href="socio-fellowship.php">Socio Fellowship </a>
-                                </li>
-                            </ul>
+                <div class="subscribe-card shadow py-5 px-4 px-sm-0 text-center">
+                    <h4 class="text-white font-weight-bold font-smooth letter-spacing-1 line-height-17 mt-4 mb-3">Don't miss our weekly updates about<br class="d-none d-md-block"/> academics information</h4>
+                    <div>
+                        <div class="subscribe-box">
+                            <div class="subcribe-form">
+                                <form id="subscribe" class="subscribe-form-inner" novalidate="true">
+                                    <input class="subscribe-email" name="EMAIL" id="subscribe-email" placeholder="Enter your email address..." spellcheck="false" type="text">
+                                    <button class="subscribe-button" type="submit" id="subscribe-button">SUBSCRIBE</button>
+                                    <label class="subscribe-message" for="subscribe-email">Successfully Sent!!!</label>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 mt-3 text-center">
-                <span class="text-black font-weight-600"> Copyright © <script>document.write(new Date().getFullYear())</script> Universal Equity Ventures Inc. All Rights Reserved</span>
+            
+        </div>
+
+        <div class="d-sm-flex text-center text-sm-left justify-content-between mt-5 mb-3 mb-sm-0">
+            <div class="">
+                <div class="d-flex justify-content-center mb-3 mb-sm-0">
+                    <h5 class="mr-3"><a class="text-white" href="https://www.facebook.com/SocioLadder/" target="_blank"> <i class="fab fa-facebook-f"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://twitter.com/socioladder" target="_blank"> <i class="fab fa-twitter"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.linkedin.com/company/uevsocioladder/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.instagram.com/socioladder/" target="_blank"> <i class="fab fa-instagram"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.youtube.com/channel/UCzqRhLscM0ERFXoTwtuFfrQ" target="_blank"> <i class="fab fa-youtube"></i> </a></h5>
+                </div>
+            </div>
+            <div>
+                <a href="mailto:sandruspsp@gmail.com" class="text-white">sandruspsp@gmail.com</a>
             </div>
         </div>
+
+        <div class="row mx-0">
+            <div class="col-12 pt-4 mt-3 text-center" style="border-top: 1px solid #352a29;">
+                <span class="text-white opacity-6">©letscast all rights reserved</span>
+            </div>
+        </div>
+
     </div>
 </footer>
 
-<!--Contact Us Floating-->
-<a href="locations.php#get-in-touch-section" class="float-contact position-fixed text-center text-white rounded-circle notice-sec d-sm-none">
-    <!-- <i class="fa fa-phone-alt my-float-contact"></i> -->
-    <img src="./public/images/png/floating-contact-icon.svg" alt="">
-</a>
-
-<div class="floating-contact-menu floating-form d-none d-sm-block">
-    <a href="#" class="floating-form-icon"></a>
-    <div class="wrapper">
-        <h5 class="contact-title">Get in touch</h5>
-        <a href="#" class="closeit"></a>
-        <div class="floating-form-block mt-3">
-            <div id="floating-form-container">
-                <form class="form-default" action="mail.php" method="post" enctype="multipart/form-data">
-                    
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="name" placeholder="Name*" value="" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email*" value="" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" placeholder="Subject*" value="" required>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea name="message" class="form-control" placeholder="Message*" rows="5" required></textarea>
-                    </div>
-                    
-                    <div class="actions">
-                        <button type="submit" name="submit-contact" style="height: 34px;" class="btn-sl btn btn-primary rounded-pill mt-2 know-more-sm w-100">Send Message</button>
-                    </div>
-
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!--NOFILTER Stream Video Popup-->
 <div class="modal fade" id="nofilter_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -306,6 +260,8 @@
   </div>
 </div>
 
+<!--Scroll To Top-->
+<a class="scrollToTop" href="#"><i class="fas fa-arrow-up"></i></a>
 
 <script src="public/js/app.min.js"></script>
 <script src="assets/plugins/slick/slick.min.js"></script>

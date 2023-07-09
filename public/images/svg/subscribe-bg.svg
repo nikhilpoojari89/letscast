@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1509" height="382" viewBox="0 0 1509 382">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.655" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset="1" stop-color="#d53e38"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="vectorMask" width="1509" height="382" rx="14" transform="translate(150 5893)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="background" transform="translate(-150 -5893)">
+    <rect id="background-2" data-name="background" width="1509" height="382" rx="14" transform="translate(150 5893)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group" data-name="Mask Group">
+      <g id="waveElement" clip-path="url(#clip-path)">
+        <g id="waveElement-2" data-name="waveElement">
+          <path id="Vector_1" data-name="Vector 1" d="M590.9,5782.9c-82.715,91.344-188.8,301.615,48.568,411.943,296.71,137.909,434.313-352.4,521.811-49.759s365.863,1.327,258.848-194.695-249.017,33.235-309.758-71.9,45.406-267.359-144.981-188.118S750.24,5616.026,590.9,5782.9Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+          <path id="Vector_4" data-name="Vector 4" d="M677.542,5836.907c-63.622,70.27-145.169,232.074,37.622,317.139,228.489,106.331,334.137-271.025,401.667-38.007s281.645,1.23,199.152-149.727-191.676,25.442-238.5-55.525,34.8-205.785-111.715-144.894S800.112,5708.543,677.542,5836.907Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+          <path id="Vector_2" data-name="Vector 2" d="M509.988,5732.216c-100.383,110.867-229.08,366.125,59.208,500.225,360.36,167.624,527.164-427.646,633.583-60.122s444.252,1.819,314.2-236.259-302.351,40.213-376.165-87.481,54.983-324.611-176.151-228.5S703.379,5529.689,509.988,5732.216Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+          <path id="Vector_3" data-name="Vector 3" d="M442.852,5690.459c-115.236,127.256-263.06,420.168,67.531,573.774,413.24,192.007,605.043-490.972,726.831-69.457s509.6,1.744,360.6-271.261-346.859,46.363-431.433-100.061,63.322-372.413-201.887-261.983S664.847,5457.985,442.852,5690.459Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+          <path id="Vector_5" data-name="Vector 5" d="M345.306,5629.194c-136.435,150.688-311.316,497.661,80.641,680.048,489.945,227.984,716.531-581.206,861.313-81.542s603.943,2.608,427.066-321.087-411.022,54.577-511.409-119.04,74.65-441.276-239.539-310.689S608.151,5353.925,345.306,5629.194Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+          <path id="Vector_6" data-name="Vector 6" d="M231.122,5557.343c-161.162,178.03-367.543,588.135,96.221,804.314,579.7,270.225,846.655-686.425,1018.5-95.35s714.24,3.842,504.655-379.177-486.015,64.026-604.951-141.415S1333.28,5223.963,961.877,5378,541.623,5232.146,231.122,5557.343Z" fill="none" stroke="rgba(213,62,56,0.16)" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

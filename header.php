@@ -4,17 +4,50 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,  user-scalable=no" />
-    <meta name="author" content="socioladder.com" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <title><?php echo $title; ?></title>
-    <link rel="icon" href="public/images/png/favicon.png" type="image/x-icon" sizes="16x16">
-    <link rel="shortcut icon" href="public/images/icon/favicon.ico" type="image/x-icon">
+    <meta name="csrf-token" content="OgXVZHqxlf34YJPn3mUvwZ1LI1VSVVuSXyAIaPlB" />
+    <meta name="author" content="LetsCast" />
+    <meta property="url" content="https://www.LetsCast.com/" />
+    <meta property="og:site_name" content="LetsCast.com" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://www.LetsCast.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LetsCast | Home | Raising the bar for the creative industry" />
+    <meta property="og:description" content="LetsCast | Home | Raising the bar for the creative industry" />
+    <meta property="og:image" content="https://www.letscast.com/images/logo.png" />
+    <meta name="twitter:title" content="LetsCast | Home | Raising the bar for the creative industry" />
+    <meta name="twitter:card" content="LetsCast | Home | Raising the bar for the creative industry" />
+    <meta name="twitter:site" content="@LetsCast" />
+    <meta name="twitter:image" content="https://www.letscast.com/images/logo.png" />
+    <meta name="twitter:description" content="LetsCast | Home | Raising the bar for the creative industry" />
+    <meta property="fb:app_id" content="546090505750027" />
+    <title><?php echo $title; ?> | Raising the bar for the creative industry | LetsCast</title>
+    <meta name="keywords" content="opportunities, Project, co-funding, OTT platforms, distributors, actors, actress, Industry, company, movie, shortflims, talent">
+    <meta name="description" content="LetsCast's vision is to promote and create memorable works of art across the audio-visual media formats including movies, web series and music videos.">
+    <link rel="canonical" href="https://www.letscast.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link href="public/css/app.css" rel="stylesheet" />
     <link href="assets/plugins/slick/slick.css" rel="stylesheet" />
     <script src="assets/js/font-awesome-5.js"></script>
     <link href="assets/plugins/aos/aos.css" rel="stylesheet" />
     <link href="assets/plugins/datepicker/bootstrap-datepicker.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="public/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="public/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/icons/favicon-16x16.png">
 </head>
 
 <body>
@@ -62,66 +95,47 @@
     </div>
 </section>
 
-<header class="socio-navbar">
-    <nav class="navbar navbar-expand-md" id="mainNav">
+<header class="letscast-navbar">
+    <nav class="navbar navbar-expand-lg" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="./public/images/png/logo.png" alt="SocioLadder Logo" width="200" title="SocioLadder Logo" />
-            </a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="ham-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarResponsive" style="">
-                <ul class="navbar-nav ml-auto text-uppercase font-weight-bold roboto-condensed">
-                    <li class="nav-item <?php if($actual_link=="index.php" || $actual_link=="socioladder.php" || $actual_link=="sociopay.php" || $actual_link=="sustaineverse.php" || $actual_link=="nofilter.php" || $actual_link=="sl-foundation.php" || $actual_link=="socio-csr.php" || $actual_link=="socio-fellowship.php"){echo "active";}else{echo "";}?> dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            What We Do
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item <?php if($actual_link=="index.php"){echo "active";}else{echo "";} ?>" href="index.php">Home</a>
-                            <a class="dropdown-item <?php if($actual_link=="socioladder.php"){echo "active";}else{echo "";} ?>" href="socioladder.php">SocioLadder</a>
-                            <a class="dropdown-item <?php if($actual_link=="sociopay.php"){echo "active";}else{echo "";} ?>" href="sociopay.php">SocioPay</a>
-                            <a class="dropdown-item <?php if($actual_link=="sustaineverse.php"){echo "active";}else{echo "";} ?>" href="sustaineverse.php">SustainEverse</a>
-                            <a class="dropdown-item <?php if($actual_link=="nofilter.php"){echo "active";}else{echo "";} ?>" href="nofilter.php">NoFilter</a>
-                            <a class="dropdown-item <?php if($actual_link=="sl-foundation.php"){echo "active";}else{echo "";} ?>" href="sl-foundation.php">SL Foundation</a>
-                            <a class="dropdown-item <?php if($actual_link=="socio-csr.php"){echo "active";}else{echo "";} ?>" href="socio-csr.php">SocioCSR</a>
-                            <a class="dropdown-item <?php if($actual_link=="socio-fellowship.php"){echo "active";}else{echo "";} ?>" href="socio-fellowship.php">Socio Fellowship</a>
-                        </div>
-                    </li>
-                    <!-- <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="index.php">What We Do</a>
-                    </li> -->
-                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="about-us.php">About Us</a>
-                    </li>
-                    <li <?php if($actual_link=="media-and-events.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="media-and-events.php">Media & Events</a>
-                    </li>
-                    <li <?php if($actual_link=="clients-and-case-studies.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="clients-and-case-studies.php">Clients & Case Studies</a>
-                    </li>
-                    <li <?php if($actual_link=="partner-with-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="partner-with-us.php">Partner With Us</a>
-                    </li>
-                    <li <?php if($actual_link=="careers.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="careers.php">Careers</a>
-                    </li>
-                    <li <?php if($actual_link=="locations.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="locations.php">Locations</a>
-                    </li>
-                </ul>
+
+            <div class="d-flex">
+                <a class="navbar-brand" href="index.php">
+                    <img src="./public/images/png/logo.png" alt="Letscast Logo" width="100" title="Letscast Logo" />
+                </a>
+                <a class="align-self-center" href="https://www.nyfa.edu/" target="_blank">
+                    <img src="./public/images/png/NYFA-logo.png" alt="NYFA Logo" width="100" title="NYFA Logo" />
+                </a>
             </div>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ham-icon"><i class="fas fa-bars text-white"></i></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active"><a class="nav-link" href="javascript:void(0);">Home</a></li>
+                    <li><a class="nav-link" href="javascript:void(0);">Benefits</a></li>
+                    <li><a class="nav-link" href="javascript:void(0);">Why NYFA?</a></li>
+                    <li><a class="nav-link" href="javascript:void(0);">About</a></li>
+                    <li><a class="nav-link" href="javascript:void(0);">Courses</a></li>
+                </ul>
+                <div class="form-inline d-block d-lg-flex">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="javascript:void(0);">Sign In</a></li>
+                        <li><a class="nav-link" href="javascript:void(0);">Register</a></li>
+                    </ul>
+                    <!--<div class="pl-2">
+                        <i class="fas fa-globe text-white"></i>
+                        <select class="lang-select form-control bg-transparent text-white border-0 pl-0 pr-1">
+                            <option selected>EN</option>
+                            <option value="1">FR</option>
+                            <option value="2">IT</option>
+                            <option value="3">RU</option>
+                        </select>
+                    </div>-->
+                </div>
+            </div>
+            
         </div>
     </nav>
 </header>
-
-<?php if($actual_link=="socioladder.php" || $actual_link=="sociopay.php" || $actual_link=="sustaineverse.php" || $actual_link=="nofilter.php" || $actual_link=="sl-foundation.php" || $actual_link=="socio-csr.php" || $actual_link=="socio-fellowship.php"){?>
-    
-<?php } else {?>
-<div id="navigate_down" class="navigate-down position-absolute ml-3">
-    <div class="scroll-down-arrow"></div>
-    <div class="scroll-down-arrow"></div>
-    <div class="scroll-down-arrow"></div>
-    <p class="text font-weight-bold roboto-condensed h5 text-primary text-uppercase mt-n3 ml-1">Scroll</p>
-</div>
-<?php } ?>
