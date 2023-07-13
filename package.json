@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socioladder/html.git"
+    "url": "git+https://github.com/letscast/letscast.git"
   },
   "author": "Letscast",
   "license": "Letscast",

@@ -24,11 +24,10 @@
         <div class="d-sm-flex text-center text-sm-left justify-content-between mt-5 mb-3 mb-sm-0">
             <div class="">
                 <div class="d-flex justify-content-center mb-3 mb-sm-0">
-                    <h5 class="mr-3"><a class="text-white" href="https://www.facebook.com/SocioLadder/" target="_blank"> <i class="fab fa-facebook-f"></i> </a></h5>
-                    <h5 class="mr-3"><a class="text-white" href="https://twitter.com/socioladder" target="_blank"> <i class="fab fa-twitter"></i> </a></h5>
-                    <h5 class="mr-3"><a class="text-white" href="https://www.linkedin.com/company/uevsocioladder/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></h5>
-                    <h5 class="mr-3"><a class="text-white" href="https://www.instagram.com/socioladder/" target="_blank"> <i class="fab fa-instagram"></i> </a></h5>
-                    <h5 class="mr-3"><a class="text-white" href="https://www.youtube.com/channel/UCzqRhLscM0ERFXoTwtuFfrQ" target="_blank"> <i class="fab fa-youtube"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.facebook.com/LetsCastCom" target="_blank"> <i class="fab fa-facebook-f"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://twitter.com/letscastcom" target="_blank"> <i class="fab fa-twitter"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.linkedin.com/company/letscast/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a></h5>
+                    <h5 class="mr-3"><a class="text-white" href="https://www.instagram.com/letscast_official" target="_blank"> <i class="fab fa-instagram"></i> </a></h5>
                 </div>
             </div>
             <div>
