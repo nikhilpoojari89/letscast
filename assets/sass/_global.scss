@@ -5,11 +5,9 @@ html,body{
 body{
   line-height: 2;
   font-size: .875rem;
-  //font-family: 'Roboto';
   font-family: 'Noto Sans';
   opacity: 1;
   transition: 1s opacity;
-  // font-weight: 600;
   line-height: 24px;
 	color: #333;
 	background-color: $white;
@@ -254,48 +252,3 @@ a, button {
 .banner-section-full {
   height: 100%;
 }
-
-@include media-breakpoint-only(lg) {
-  .banner-section-medium {
-    height: 535px;
-  }
-  .partner-banner {
-    height: 477px;
-  }
-}
-
-@include media-breakpoint-only(md) {
-  .home-banner-section {
-    &.banner-section-medium {
-      height: 575px;
-    }
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .banner-section-small {
-    height: 300px;
-  }
-}
-
-@include media-breakpoint-only(xl) {
-  .banner-section-medium {
-    height: 585px;
-  }
-  .partner-banner {
-    height: 525px;
-  }
-}
-
-.float-contact{
-	width:60px;
-	height:60px;
-	bottom:40px;
-  right:10px;
-  font-size: 1.3rem;
-  box-shadow: 3px 4px 3px #999;
-  .my-float-contact{
-    margin-top:20px;
-  }
-}
-

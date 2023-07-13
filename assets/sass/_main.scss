@@ -12,21 +12,6 @@ body {
 	font-family: sans-serif!important;
 }
 
-/****** a href Hover *****/
-.news-events-section {
-	video {
-		object-fit: cover;
-	}
-	.card-group-item {
-		a {
-			&:hover{
-				color: inherit!important;
-				text-decoration: none!important;
-			}
-		}
-	}
-}
-
 /****** Letscast Benefits Section *****/
 .letscast-benefits {
 	.card-group-item {
@@ -101,8 +86,6 @@ body {
 
 /*****Footer Css****/
 footer {
-	// padding: 40px 0 100px;
-	//background-color: #170c0b;
 	background: linear-gradient(to bottom, $white 45%,#170c0b 45%);
 	padding: 40px 0 40px;
 	@include media-breakpoint-down(sm) {
@@ -170,23 +153,11 @@ footer {
 
 /****** Banner Section ******/
 .banner-section {
-	//background: #fedd02;
-	//background-image: url(../images/png/banner.png);
 	background: #080808;
-	//background-image: url(../images/png/banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 70px 0 0 0;
 	width: 100%;
-	// float: left;
-	@include media-breakpoint-down(md) {
-		.banner-img {
-			width: 300px;
-		}
-		.banner-text {
-			font-size: 1.5rem;
-		}
-	}
 	@include media-breakpoint-up (xl) {
 		&.custom-banner {
 			height: 280px!important;
@@ -199,7 +170,6 @@ footer {
 	}
 }
 
-
 /****** Why NYFA Css ******/
 
 .why-nyfa-section {
@@ -209,71 +179,6 @@ footer {
 	@include media-breakpoint-up(lg) {
 		background-size: contain;
 		background-position: center center;
-	}
-}
-
-/****** Career Jobs Scroller ******/
-.opening-section {
-	height: 60vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-	&::-webkit-scrollbar-track {
-		background: rgba(240, 90, 39,.05); 
-	}
-	&::-webkit-scrollbar-thumb {
-		background: rgba(240, 90, 39,.8); 
-		border-radius: 5px;
-	}
-	&::-webkit-scrollbar-thumb:hover {
-		background: rgba(240, 90, 39,.9); 
-	}
-}
-
-.bg-job-listing {
-	background: #f5c21b!important;
-	.border-bottom {
-		border-bottom: 1px solid #ffffff!important;
-	}
-	.job-title {
-		color: #ffffff;
-		background-color: #f05a27!important;
-		display: inline-block;
-		padding: 5px 30px;
-	}
-}
-
-/****** Career SocioLadder Slider ******/
-.life-sl-slider {
-	img {
-		border-width: 4px!important;
-	}
-	.slick-arrow {
-		position: absolute;
-		bottom: -60px;
-		z-index: 99;
-		border: none;
-		outline: none;
-		font-size: 1.5rem;
-		background: transparent;
-		&.slick-prev {
-			left: 44%;
-		}
-		&.slick-next {
-			left: 54%
-		}
-	}
-}
-
-/***** Socio CSR ******/
-@include media-breakpoint-down(xs) {
-	.border-img {
-		width: 100%;
-	}	
-	
-	.csr-benefits {
-		.csr-benefits-img {
-			width: 100%;
-		}
 	}
 }
 
@@ -634,54 +539,6 @@ footer {
 	}
 }
 
-
-
-
-/********* Foundation Target Box Css *********/
-.target-section {
-	border-color: #44c7ea!important;
-	border-width: 2px!important;
-	border-radius: 0.75rem!important;
-}
-
-/********* Sustaineverse Title Underline Css *********/
-.title-underline {
-	&::after {
-		content: '';
-		display: block;
-		border-bottom: 4px solid $primary;
-		width: 105px;
-		margin-top: 5px;
-	}
-}
-
-.title-underline{
-	&.projects {
-		&::after {
-			content: '';
-			border-color: #1f3362!important;
-		}
-	}
-}
-
-.title-underline{
-	&.support-unsdg {
-		&::after {
-			content: '';
-			border-color: #00a6d6!important;
-		}
-	}
-}
-
-.title-underline{
-	&.section-underline {
-		&::after {
-			content: '';
-			border-color: #e21f26!important;
-		}
-	}
-}
-
 /********* About Css *********/
 
 .letscast-about {
@@ -744,162 +601,6 @@ footer {
 		}
 	}
 }
-
-.img-fluid {
-	&.about-us-banner {
-		max-height: 610px;
-		@include media-breakpoint-only(lg){
-			max-height: 500px;
-		}
-	}
-}
-  
-.mini-box-section {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 25px;
-	@media only screen and (max-width: 768px) {
-		display: block;
-	}
-}
-  
-.mini-box {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-  
-.partner-img {
-	position: relative;
-
-	img {
-		max-width: 1200px;
-		position: absolute;
-		left: 0;
-		top: -135px;
-		@media only screen and (max-width: 768px) {
-		max-width: 730px;
-		margin-top: 72px;
-		}
-		@media only screen and (max-width: 425px) {
-		max-width: 350px;
-		}
-	}
-}
-
-.partner-sec {
-	position: relative;
-}
-
-.mission {
-	.art-clip {
-		max-width: 250px;
-		@include media-breakpoint-down(sm) {
-			max-width: 100px;
-		}
-	}
-}
-
-.vision-sec {
-	@include media-breakpoint-up(lg) {
-		margin-top: 150px;
-	}
-}
-
-
-.partner-sec {
-	.partner-sec-header {
-		display: flex;
-		align-items: center;
-	}
-}
-
-.yellow-arrow {
-	width: 100px;
-	@media only screen and (max-width: 768px) {
-		width: 70px;
-	}
-}
-
-.partner-logo{
-	display: flex;
-	justify-content: space-between;
-	@media only screen and (max-width: 768px) {
-		display: block;
-		text-align: center;
-	}
-}
-
-.partner-img-row{
-	@include media-breakpoint-up(md) {
-		display: flex;
-		align-items: flex-start;
-	}
-	img{
-		display: block;
-		margin-bottom: 20px;
-		@include media-breakpoint-up(md) {
-			margin-right: 60px;
-		}
-		@include media-breakpoint-down(sm){
-			margin-right: auto;
-			margin-left: auto;
-		}
-	}
-}
-
-.partner-img-right{
-	@include media-breakpoint-only(md){
-		width: 100%;
-		text-align: center;
-	}
-	img{
-		position: relative;
-		@include media-breakpoint-up(lg){
-			top: -70px;
-		}
-	}
-}
-
-.par-img, .par-img-2{
-	height: 100%;
-}
-
-.par-right-img {
-	height: 100%;
-	@media only screen and (max-width: 575px) {
-		top: 0 !important;
-	}
-}
-
-.partner-img-left{
-	border-bottom: 2px solid gray;
-}
-
-.partner-img-row-bottom{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	@include media-breakpoint-down(sm){
-		display: block;
-		img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 1.5rem
-		}
-	}
-}
-
-.values-section {
-	.border-img {
-		@include media-breakpoint-only(sm) {
-			width: 500px!important;
-		}
-	}
-}
-
 
 /********* HOME Css *********/
   
@@ -1212,92 +913,6 @@ $menu-width: 10px;
 }
 
 
-/**************Connect Video CSS********************/
-
-.videoWrapper {
-    position: relative;
-    width: 100%;
-    height: 0;
-	background-color: #000;
-	&.videoWrapper-res {
-		padding-top: 56%;
-	}
-	.videoIframe {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: transparent;
-	}
-	.videoPoster {
-		top: 0;
-		right: 0;
-		left: 0;
-		height: 100%;
-		outline: none;
-		background-position: 50% 50%;
-		background-size: 100% 100%;
-		background-size: cover;
-		opacity: 1;
-		-webkit-transition: opacity 800ms, height 0s;
-		transition: opacity 800ms, height 0s;
-		-webkit-transition-delay: 0s, 0s;
-		transition-delay: 0s, 0s;
-	}
-	&.videoWrapperActive {
-		.videoPoster {
-			opacity: 0;
-			height: 0;
-			-webkit-transition-delay: 0s, 800ms;
-			transition-delay: 0s, 800ms;
-		}
-	}
-}
-
-
-@keyframes move {
-	25% {
-		opacity: 1;
-
-	}
-	33% {
-		opacity: 1;
-		transform: translateY(30px);
-	}
-	67% {
-		opacity: 1;
-		transform: translateY(40px);
-	}
-	100% {
-		opacity: 0;
-		transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-	}
-}
-
-/*************** DatePicker ****************/
-
-.datepicker {
-	td,th {
-		width: 2rem!important;
-		@include media-breakpoint-down(sm) {
-			height: 2rem!important;
-		}
-		font-size: 0.85rem;
-	}
-	&.datepicker-dropdown {
-		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-		.datepicker-months, .datepicker-years, .datepicker-decades, .datepicker-centuries {
-			.table-condensed {
-				width: 100%;
-			}
-		}
-	}
-}
-
-
 /*************** Select Dropdown Focus ****************/
 
 select {
@@ -1415,7 +1030,6 @@ a {
 	input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
 	label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: $primary; font-weight: 900;  } 
 }
-
 
 
 /*************** Grid For Images Css ****************/
