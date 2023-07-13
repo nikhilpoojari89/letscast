@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="modal-footer border-top-0 pt-0">
-                <button type="submit" name="submit-sociocsr" class="btn-sl btn btn-primary rounded-pill">Submit</button>
+                <button type="submit" name="submit-sociocsr" class="btn-lc btn btn-primary rounded-pill">Submit</button>
             </div>
         </form>
     </div>
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="modal-footer border-top-0 pt-0">
-                <button type="submit" name="submit-sociofl" class="btn-sl btn btn-primary rounded-pill">Submit</button>
+                <button type="submit" name="submit-sociofl" class="btn-lc btn btn-primary rounded-pill">Submit</button>
             </div>
         </form>
     </div>
@@ -253,7 +253,7 @@
                 </div>
             </div>
             <div class="modal-footer border-top-0 pt-0 pb-4 justify-content-start">
-                <button type="submit" name="submit-jobapp" class="btn-sl btn btn-primary rounded-pill school-verify">Submit</button>
+                <button type="submit" name="submit-jobapp" class="btn-lc btn btn-primary rounded-pill school-verify">Submit</button>
             </div>
         </form>
     </div>

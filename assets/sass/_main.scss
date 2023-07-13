@@ -188,34 +188,29 @@ footer {
 		}
 	}
 	@include media-breakpoint-up (xl) {
-		&.clients-banner {
-			height: 535px!important;
+		&.custom-banner {
+			height: 280px!important;
 		}
+	}
+	&.home-banner-section {
+		background-image: url('../images/png/homepage-bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
-.banner-section {
-	&.nofilter-banner {
-		background-image: url(../images/png/banner-nofilter.png)!important;
-		background-position: bottom;
+
+/****** Why NYFA Css ******/
+
+.why-nyfa-section {
+	background-image: url('../images/png/why-nyfa-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	@include media-breakpoint-up(lg) {
+		background-size: contain;
+		background-position: center center;
 	}
-	&.locations-banner {
-		background-image: url(../images/png/locations-banner-img.png)!important;
-		background-position: center;
-		@include media-breakpoint-only(md) {
-			background-position: bottom!important;
-			height: 500px!important;
-		}
-		@include media-breakpoint-only(sm) {
-			background-position: bottom!important;
-			height: 400px!important;
-		}
-		@include media-breakpoint-down(xs) {
-			background-position: bottom!important;
-			height: 300px!important;
-		}
-	}
-}	
+}
 
 /****** Career Jobs Scroller ******/
 .opening-section {
@@ -363,10 +358,122 @@ footer {
     100% { opacity: 1; transform: translateX(0); }
 }*/
 
+.program-tabs-section {
+	.program-tabs-div {
+		.program-tabs-wrapper {
+			@include media-breakpoint-down(sm) {
+				border: 0!important;
+			}
+			.program-tabs {
+				&.nav-pills {
+					flex-wrap: nowrap;
+					overflow-x: auto;
+					overflow-y: hidden;
+					white-space: nowrap;
+					width: 100%;
+					padding-bottom: 20px!important;
+					&::-webkit-scrollbar-thumb,
+					&::-webkit-scrollbar-track {
+						background: transparent; 
+					}
+				}
+				.nav-item {
+					a {
+						font-size: 12px;
+						letter-spacing: 0.5px;
+						padding: .5rem 2rem;
+						&.nav-link {
+							color: $secondary;
+							transition: .2s ease-out;
+							background-color: #F0F0F0;
+						}
+						&.nav-link {
+							&.active {
+								color: $white;
+								position: relative;
+								background-color: $tertiary;
+								> img {
+									filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(104%) contrast(103%);
+								}
+								&::after {
+									content: "";
+									position: absolute;
+									bottom: -30px;
+									left: 0;
+									right: 0;
+									border: 18px solid transparent;
+									border-top-color: $tertiary;
+									margin: 0 auto;
+									width: 0;
+									z-index: -1;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.courses-tabs-section {
+	.courses-tabs-div {
+		.courses-tabs-wrapper {
+			@include media-breakpoint-down(sm) {
+				border: 0!important;
+			}
+			.courses-tabs {
+				&.nav-pills {
+					flex-wrap: nowrap;
+					overflow: auto;
+					white-space: nowrap;
+					width: 100%;
+					padding-bottom: 10px!important;
+					&::-webkit-scrollbar-thumb,
+					&::-webkit-scrollbar-track {
+						background: transparent; 
+					}
+				}
+				.nav-item {
+					a {
+						font-size: 12px;
+						letter-spacing: 0.5px;
+						padding: .2rem 1.5rem;
+						&.nav-link {
+							color: $secondary;
+							transition: .3s ease-out;
+							background-color: #F0F0F0;
+						}
+						&.nav-link {
+							&.active {
+								color: $white;
+								position: relative;
+								background-color: $primary;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 
 /********* Courses Listing Css *********/
 
 .course-listing-section {
+	.course-list-left-img {
+		> img {
+			height: 100%;
+			margin-top: 50px;
+			width: 510px;
+			@include media-breakpoint-only(md) {
+				width: 350px;
+				margin-top: 35px;
+			}
+		}
+	}
 	.card-link {
 		&:hover {
 			.sub-cat-section {
@@ -627,6 +734,14 @@ footer {
 		&::before{
 			margin-left: -70px;
 		}
+		@include media-breakpoint-down(xs) {
+			&::before{
+				margin-left: -55px;
+			}
+			&::after{
+				margin-left: 10px;
+			}
+		}
 	}
 }
 
@@ -799,6 +914,131 @@ footer {
 	display: flex;
 }
 
+/********* Hanging Menus Css *********/
+
+$background-color: $black;
+$menu-height: 100px;
+$menu-width: 10px;
+
+@mixin string($length, $menu-color){
+  &.string{
+    position: absolute;
+    top: 0;
+    width: 1.0px;
+    height: $length;
+    //background: rgba(255,255,255, 0.4);
+	border-right: 1px dashed #322828;
+	&:hover {
+		border-color: rgba($white, 0.5);
+	}
+ } 
+  .menu-hanging {
+    position: absolute;
+    transform: translate(-50%,0);
+    background: #392f2f;
+    //border-radius: 30%;
+	//border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	//border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+	border-radius: 48% 52% 57% 27% / 25% 49% 48% 29% ;
+    bottom: 0;
+    color: $white;
+	text-align: center;
+    padding: 20px;
+	z-index: 99;
+	transition: .3s ease-in-out;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: -10px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: $primary;
+		border: 2px solid #3d1a2b;
+	}
+	&:hover {
+		animation: morphing 10s infinite;
+		//transform: scale(1.5) translate(-32px, 0);
+		background: $primary;
+		box-shadow: 
+		0px 0px 0px $menu-color, 
+		0px 0px 0px $menu-color,  
+		0px 0px 0px $menu-color,
+		0px 0px 1em $menu-color,
+		0px 0px 0px $menu-color;
+		&:before {
+			border-color: $white;
+		}
+	}
+  }
+}
+
+@keyframes morphing {
+	0% {
+	  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+	  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+	}
+	25% {
+	  border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+	}
+	50% {
+	  border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+	  box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+	}
+	75% {
+	  border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+	}
+  }
+
+
+@mixin hanging-light($left, $string-length, $menu-color){
+  position: absolute;
+  left: $left;
+  width: 80px;
+  height: 250px;
+  @include string($string-length, $menu-color);
+}
+
+.hanging-light0{
+  @include hanging-light(14%, 230px, $primary);
+}
+.hanging-light{
+  @include hanging-light(18%, 450px, $primary);
+}
+.hanging-light2{
+  @include hanging-light(30%, 400px, $primary);
+}
+.hanging-light3{
+  @include hanging-light(38%, 700px, $primary);
+}
+.hanging-light4{
+  @include hanging-light(46%, 500px, $primary);
+}
+.hanging-light5{
+  @include hanging-light(52%, 690px, $primary);
+}
+.hanging-light6{
+  @include hanging-light(60%, 550px, $primary);
+}
+.hanging-light7{
+  @include hanging-light(70%, 720px, $primary);
+}
+.hanging-light8{
+  @include hanging-light(24%, 600px, $primary);
+}
+.hanging-light9{
+	@include hanging-light(74%, 350px, $primary);
+}
+.hanging-light10{
+	@include hanging-light(80%, 500px, $primary);
+}
+.hanging-light11{
+	@include hanging-light(86%, 230px, $primary);
+}
   
 /********* Counter Css *********/
 
@@ -1131,4 +1371,167 @@ a {
 	&:link {
 		text-decoration:none;
 	}
-}	
+}
+
+
+/*************** Star Rating Css ****************/
+.rate {
+    display: inline-block;
+    border: 0;
+	> input {
+		display: none;
+
+	}
+	> label {
+		margin-bottom: 0;
+		float: right;
+		&:before {
+			content: "\f005";
+			font-family: "Font Awesome 5 Free"; 
+			display: inline-block;
+			//font-size: 2rem;
+			padding: .3rem .2rem;
+			margin: 0;
+			color: $primary;
+			cursor: pointer;
+		}
+	}
+	.half {
+		&:before {
+			content: "\f089"; /* half star no outline */
+			font-family: "Font Awesome 5 Free";
+			color: $primary;
+			//font-weight: 900;
+			position: absolute;
+			padding-right: 0;
+		}
+	}
+	/* Click + hover color */
+	input:checked ~ label, /* color current and previous stars on checked */
+	label:hover, label:hover ~ label { color: $primary; font-weight: 900; } /* color previous stars on hover */
+	
+	/* Hover highlights */
+	input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+	input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+	label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: $primary; font-weight: 900;  } 
+}
+
+
+
+/*************** Grid For Images Css ****************/
+
+.grid-cards-section {
+	div[class*=grid-card] {
+		background: #eee;
+		box-shadow: inset 0 0 0 1px #ddd;
+		padding: 15px; float: left;
+		position: relative;
+		border-radius: 10px;
+		margin: 8px;
+	}
+	.grid-card-lg, .grid-card-md, .grid-card-sm {
+		width: 320px;
+		overflow: hidden;
+		width: 100%;
+		height: 260px;
+	}
+	.grid-card-full {
+		overflow: hidden;
+		width: 100%;
+		height: 400px;
+	}
+	.grid-card-sm {height: 200px;}
+	.grid-link {
+		.grid-img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			overflow: hidden;
+			background-position: center center;
+			background-size: cover;
+		}
+		.grid-info {
+			background-color: rgba($tertiary, 0.9);
+			transition: .3s ease-in-out;
+			.grid-title {
+				font-size: 12px;
+				letter-spacing: 0.5px;
+			}
+			.grid-desc {
+				font-size: 10px;
+			}
+		}
+		&:hover {
+			.grid-info {
+				background-color: rgba($primary, 0.9);
+			}
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.grid-card-full {height: 260px;}
+	}
+	@media screen and (min-width: 640px) {
+		width: 100%;
+	  	.grid-card-lg, .grid-card-md {width: 46%;}
+		.grid-card-sm {width: 46%;}
+	}
+	@media screen and (min-width: 768px) {
+		.grid-card-sm {width: 30%;}
+	}
+	@media screen and (min-width: 1024px) {
+		.grid-card-lg {width: 55%;}
+	  	.grid-card-md {width: 41%;}
+	  	.grid-card-sm {width: 31%;}
+	}
+} 
+
+
+/*************** Career Prospects Css ****************/
+.cp-summary {
+	.btn-lc {
+		font-size: 12px!important;
+		font-weight: 600!important;
+		letter-spacing: 1px!important;
+		> img {
+			filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(204%) contrast(103%);
+		}
+	}
+	.exp-inner {
+		div {
+			&.exp-info {
+				@include media-breakpoint-up(md) {
+					&:after {
+						content: '';
+						display: block;
+						position: absolute;
+						width: 1px;
+						height: 45px;
+						top: 0;
+						left: 0;
+						border-right: 1px solid #eaeaea;
+					}
+				}
+				&:first-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.people-circle-img {
+	background-image: url('../images/png/simple-avatar.png');
+	background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    border: 1px solid #ececec;
+}

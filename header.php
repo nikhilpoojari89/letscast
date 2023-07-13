@@ -27,7 +27,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link href="public/css/app.css" rel="stylesheet" />
     <link href="assets/plugins/slick/slick.css" rel="stylesheet" />
@@ -113,11 +114,11 @@
 
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active"><a class="nav-link" href="javascript:void(0);">Home</a></li>
+                    <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>><a class="nav-link" href="javascript:void(0);">Home</a></li>
                     <li><a class="nav-link" href="javascript:void(0);">Benefits</a></li>
                     <li><a class="nav-link" href="javascript:void(0);">Why NYFA?</a></li>
                     <li><a class="nav-link" href="javascript:void(0);">About</a></li>
-                    <li><a class="nav-link" href="javascript:void(0);">Courses</a></li>
+                    <li <?php if($actual_link=="courses.php"){echo "class= 'active'";}else{echo "";} ?>><a class="nav-link" href="courses.php">Courses</a></li>
                 </ul>
                 <div class="form-inline d-block d-lg-flex">
                     <ul class="navbar-nav">

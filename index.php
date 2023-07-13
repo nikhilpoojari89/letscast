@@ -4,6 +4,84 @@
     <!--************ Title With Search Box Section *************-->
     <section class="home-banner-section banner-section banner-section-full">
         <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="hanging-light0 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/actor.svg" alt="">
+                            <span class="mt-2 d-block">Actor</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/script-writer-editor.svg" alt="">
+                            <span class="mt-2 d-block">Script Writer/Editor</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light2 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/singer.svg" alt="">
+                            <span class="mt-2 d-block">Singer</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light3 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/dancer.svg" alt="">
+                            <span class="mt-2 d-block">Dancer</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light4 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/production-designer.svg" alt="">
+                            <span class="mt-2 d-block">Production Designer</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light5 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/choreographer.svg" alt="">
+                            <span class="mt-2 d-block">Choreographer</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light6 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/music.svg" alt="">
+                            <span class="mt-2 d-block">Music Composer</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light7 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/cinematographer-dop.svg" alt="">
+                            <span class="mt-2 d-block">Cinematographer /Dop</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light8 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/makeup-artist.svg" alt="">
+                            <span class="mt-2 d-block">Makeup Artist</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light9 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/costume-supervisor.svg" alt="">
+                            <span class="mt-2 d-block">Costume Supervisor</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light10 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/vfx-supervisor.svg" alt="">
+                            <span class="mt-2 d-block">Vfx Supervisor</span>
+                        </a>
+                    </div>
+                    <div class="hanging-light11 string">
+                        <a href="javascript:void(0);" class="menu-hanging">
+                            <img src="./public/images/svg/production-designer.svg" alt="">
+                            <span class="mt-2 d-block">Production Designer</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
             <div class="row py-5 mt-4 justify-content-center">
                 <div class="col-12">
                     <div class="row justify-content-center search-section">
@@ -169,18 +247,18 @@
 
 
     <!--************ Why NYFA? Section *************-->
-    <section class="mt-100 bg-secondary">
+    <section class="mt-100 pt-100 pb-200 why-nyfa-section">
         <div class="container">
             <div class="row home-banner-wrapper mx-0 mx-md-3 justify-content-around flex-wrap flex-md-nowrap">
                 <div class="col-md-7 home-banner-item inner align-self-center order-2 order-md-1 text-center text-md-left">
                     <div class="home-banner-item-sub" data-aos="fade-right">
                         <h2 class="text-white font-weight-bold">WHY NYFA ?</h2>
                         <p class="line-height-15 text-white opacity-4 font-weight-light h6 my-4">Sample text can come here Sample text can come hereSample text can come hereSample text can come hereSample text can come hereSample text can come hereSample text can come here</p>
-                        <a href="socioladder.php" class="btn-sl btn btn-primary rounded-pill know-more-sm mt-2">Know More</a>
+                        <a href="javascript:void(0);" class="btn-lc btn btn-primary rounded-pill know-more-sm mt-2">Know More</a>
                     </div>
                 </div>
-                <div class="col-md-5 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 align-self-center" data-aos="fade-left">
-                    <img src="./public/images/png/home-socioladder-org.png" class="home-banner-item-img img-fluid"/>
+                <div class="col-md-5 home-banner-item text-center text-lg-right order-1 order-md-3 mb-4 mb-md-0 mt-n5 align-self-center" data-aos="fade-left">
+                    <img src="./public/images/png/why-nyfa.png" class="home-banner-item-img img-fluid"/>
                 </div>
             </div>
         </div>
@@ -230,285 +308,7 @@
 
 
     <!--************ Join Us Section *************-->
-    <section class="pt-100 pb-100 letscast-joinus">
-        <div class="container position-relative">
-            <div class="row justify-content-center mb-2">
-                <div class="col-lg-8">
-                    <h5 class="font-weight-bold mb-4 text-center text-secondary line-height-15 title-lines" data-aos="fade-up">Join us on every major platform!</h5>
-                </div>
-            </div>
-
-            <div class="row justify-content-start">
-
-                <div class="col-12">
-                    <div class="row custom-nav-tabs-section" data-aos="fade-up">
-                        <div class="col-12">
-                            <div class="row custom-nav-tabs-div">
-                                <div class="col-12">
-
-                                    <div class="custom-nav-tabs-wrapper">
-            
-                                        <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2" id="more_info_tabs" role="tablist">
-                                            <li class="nav-item mr-3" role="presentation">
-                                                <a class="nav-link active rounded-pill font-serif font-weight-semibold" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one" aria-selected="true">Degree Programs</a>
-                                            </li>
-                                            <li class="nav-item mr-3" role="presentation">
-                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two" aria-selected="false">Certificate Programs</a>
-                                            </li>
-                                            <li class="nav-item mr-3" role="presentation">
-                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab" aria-controls="pills-three" aria-selected="false">Short-term Workshops</a>
-                                            </li>
-                                            <li class="nav-item mr-3" role="presentation">
-                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab" aria-controls="pills-four" aria-selected="false">Youth Programs</a>
-                                            </li>
-                                            <li class="nav-item mr-3" role="presentation">
-                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab" aria-controls="pills-five" aria-selected="false">Study Abroad with NYFA</a>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <a class="nav-link rounded-pill font-serif font-weight-semibold" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab" aria-controls="pills-six" aria-selected="false">Online Programs</a>
-                                            </li>
-                                        </ul>
-            
-                                    </div>
-            
-                                </div>
-                            </div>
-                            <div class="tab-content" id="pills-tabContent">
-            
-                                <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-            
-                                    <div class="row">
-                                        <div class="col-12">
-
-                                            <div class="bg-white custom-border rounded-lg py-4 mt-2">
-
-                                                <section class="py-2 course-listing-section">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <div><img src="./public/images/svg/about-img-2.svg" width="400" alt=""></div>
-                                                            </div>
-                                                            <div class="col-md-10 px-2 px-sm-5">
-                                                                <div class="row" id="courses-listing-slider">
-
-                                                                    <div class="col-md-4 mt-4">
-                                                                        <div class="card-group-item shadow h-100 position-relative">
-                                                                            <a class="card-link" href="javascript:void(0);">
-                                                                                <div class="card border-0 bg-transparent">
-                                                                                    <div class="position-relative">
-                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
-                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
-                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 1</p>
-                                                                                            <span><small>Sample Text</small></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="col-md-4 mt-4">
-                                                                        <div class="card-group-item shadow h-100 position-relative">
-                                                                            <a class="card-link" href="javascript:void(0);">
-                                                                                <div class="card border-0 bg-transparent">
-                                                                                    <div class="position-relative">
-                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
-                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
-                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 2</p>
-                                                                                            <span><small>Sample Text</small></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="col-md-4 mt-4">
-                                                                        <div class="card-group-item shadow h-100 position-relative">
-                                                                            <a class="card-link" href="javascript:void(0);">
-                                                                                <div class="card border-0 bg-transparent">
-                                                                                    <div class="position-relative">
-                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
-                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
-                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 3</p>
-                                                                                            <span><small>Sample Text</small></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="col-md-4 mt-4">
-                                                                        <div class="card-group-item shadow h-100 position-relative">
-                                                                            <a class="card-link" href="javascript:void(0);">
-                                                                                <div class="card border-0 bg-transparent">
-                                                                                    <div class="position-relative">
-                                                                                        <img class="card-img-top" src="./public/images/png/clients-3.png" alt="" />
-                                                                                        <div class="sub-cat-section position-absolute bottom-0 left-0 w-100 px-4 pt-3 pb-2 text-white">
-                                                                                            <p class="mb-0 font-weight-bold line-height-1">PROGRAM 4</p>
-                                                                                            <span><small>Sample Text</small></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-            
-                                </div>
-            
-                                <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-
-                                    <div class="row">
-                                        <div class="col-12">
-                                           
-                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
-            
-                                                <h4 class="title-color">Certificate Programs</h4>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-
-                                    <div class="row">
-                                        <div class="col-12">
-            
-                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
-            
-                                                <h4 class="title-color">Short-term Workshops</h4>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-
-                                    <div class="row">
-                                        <div class="col-12">
-            
-                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
-            
-                                                <h4 class="title-color">Youth Programs</h4>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
-
-                                    <div class="row">
-                                        <div class="col-12">
-            
-                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
-            
-                                                <h4 class="title-color">Study Abroad with NYFA</h4>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-six-tab">
-
-                                    <div class="row">
-                                        <div class="col-12">
-            
-                                            <div class="bg-white custom-border rounded-lg p-4 mt-2">
-            
-                                                <h4 class="title-color">Online Programs</h4>
-            
-                                            </div>
-            
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                
-
-
-            </div>
-            
-
-        </div>
-    </section>
+    <?php include 'join-us-tab.php' ?>
 
 
 <?php include 'footer.php' ?>
-
-<script>
-    //Scroll Left/Right on Prev/Next Button Click JS
-    function slide(direction){
-        var container = document.getElementById('more_info_tabs');
-        scrollCompleted = 0;
-        var slideVar = setInterval(function(){
-            if(direction == 'left'){
-                container.scrollLeft -= 18;
-            } else {
-                container.scrollLeft += 18;
-            }
-            scrollCompleted += 10;
-            if(scrollCompleted >= 100){
-                window.clearInterval(slideVar);
-            }
-        }, 50);
-    }
-
-    //courses Slider JS
-    $('#courses-listing-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: true,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        prevArrow:"<button type='button' class='slick-prev pull-left'><img src='./public/images/svg/play-btn.svg' width='35' alt='Prev'></button>",
-        nextArrow:"<button type='button' class='slick-next pull-right'><img src='./public/images/svg/play-btn.svg' width='35' alt='Next'></button>",
-        responsive: [
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
-</script>
