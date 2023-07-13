@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="64" viewBox="0 0 124 64">
+  <g id="Group_441" data-name="Group 441" transform="translate(-205 -24)">
+    <g id="Group_437" data-name="Group 437" transform="translate(205 24)">
+      <rect id="Rectangle_661" data-name="Rectangle 661" width="28" height="28" transform="translate(0 1)" fill="#e62a2d"/>
+      <text id="L" transform="translate(13 24)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.215" y="0">L</tspan></text>
+    </g>
+    <g id="Group_438" data-name="Group 438" transform="translate(236.731 24)">
+      <rect id="Rectangle_662" data-name="Rectangle 662" width="28" height="28" transform="translate(0.27 1)" fill="#e62a2d"/>
+      <text id="E" transform="translate(13.27 24)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.16" y="0">E</tspan></text>
+    </g>
+    <g id="Group_439" data-name="Group 439" transform="translate(268.525 24)">
+      <rect id="Rectangle_663" data-name="Rectangle 663" width="28" height="28" transform="translate(0.476 1)" fill="#e62a2d"/>
+      <text id="T" transform="translate(13.476 24)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.369" y="0">T</tspan></text>
+    </g>
+    <rect id="Rectangle_675" data-name="Rectangle 675" width="28" height="28" transform="translate(301 25)" fill="#e62a2d"/>
+    <text id="S" transform="translate(315 48)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.061" y="0">S</tspan></text>
+    <g id="Group_440" data-name="Group 440" transform="translate(-10 -138)">
+      <g id="Group_324" data-name="Group 324" transform="translate(215 195.524)">
+        <rect id="Rectangle_665" data-name="Rectangle 665" width="28" height="29" transform="translate(0 1.476)" fill="#e62a2d"/>
+        <text id="C" transform="translate(14 24.475)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-7.007" y="0">C</tspan></text>
+      </g>
+      <g id="Group_323" data-name="Group 323" transform="translate(246.731 195.524)">
+        <rect id="Rectangle_666" data-name="Rectangle 666" width="28" height="29" transform="translate(0.27 1.476)" fill="#e62a2d"/>
+        <text id="A" transform="translate(12.27 22.475)" fill="#fff" font-size="21" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-7.245" y="0">A</tspan></text>
+      </g>
+      <g id="Group_322" data-name="Group 322" transform="translate(278.525 195.524)">
+        <rect id="Rectangle_667" data-name="Rectangle 667" width="28" height="29" transform="translate(0.476 1.476)" fill="#e62a2d"/>
+        <text id="S-2" data-name="S" transform="translate(13.476 24.475)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.061" y="0">S</tspan></text>
+      </g>
+      <g id="Group_321" data-name="Group 321" transform="translate(311.255 195.524)">
+        <rect id="Rectangle_668" data-name="Rectangle 668" width="28" height="29" transform="translate(-0.255 1.476)" fill="#e62a2d"/>
+        <text id="T-2" data-name="T" transform="translate(13.745 24.475)" fill="#fff" font-size="22" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-6.369" y="0">T</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

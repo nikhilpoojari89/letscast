@@ -102,7 +102,7 @@
 
             <div class="d-flex">
                 <a class="navbar-brand" href="index.php">
-                    <img src="./public/images/png/logo.png" alt="Letscast Logo" width="100" title="Letscast Logo" />
+                    <img src="./public/images/svg/logo.svg" alt="Letscast Logo" width="100" title="Letscast Logo" />
                 </a>
                 <a class="align-self-center" href="https://www.nyfa.edu/" target="_blank">
                     <img src="./public/images/png/NYFA-logo.png" alt="NYFA Logo" width="100" title="NYFA Logo" />
