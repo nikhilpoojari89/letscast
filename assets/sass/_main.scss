@@ -640,7 +640,8 @@ $menu-width: 10px;
     //border-radius: 30%;
 	//border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 	//border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-	border-radius: 48% 52% 57% 27% / 25% 49% 48% 29% ;
+	//border-radius: 48% 52% 57% 27% / 25% 49% 48% 29% ;
+	border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
     bottom: 0;
     color: $white;
 	text-align: center;
@@ -662,8 +663,7 @@ $menu-width: 10px;
 		border: 2px solid #3d1a2b;
 	}
 	&:hover {
-		animation: morphing 10s infinite;
-		//transform: scale(1.5) translate(-32px, 0);
+		animation: morphing 1s;
 		background: $primary;
 		box-shadow: 
 		0px 0px 0px $menu-color, 
@@ -680,7 +680,7 @@ $menu-width: 10px;
 
 @keyframes morphing {
 	0% {
-	  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+	  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
 	  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
 	}
 	25% {
@@ -693,10 +693,10 @@ $menu-width: 10px;
 	75% {
 	  border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
 	}
-  }
+}
 
 
-@mixin hanging-light($left, $string-length, $menu-color){
+@mixin hanging-menu($left, $string-length, $menu-color){
   position: absolute;
   left: $left;
   width: 80px;
@@ -704,41 +704,41 @@ $menu-width: 10px;
   @include string($string-length, $menu-color);
 }
 
-.hanging-light0{
-  @include hanging-light(14%, 230px, $primary);
+.hanging-menu0{
+  @include hanging-menu(14%, 230px, $primary);
 }
-.hanging-light{
-  @include hanging-light(18%, 450px, $primary);
+.hanging-menu{
+  @include hanging-menu(18%, 450px, $primary);
 }
-.hanging-light2{
-  @include hanging-light(30%, 400px, $primary);
+.hanging-menu2{
+  @include hanging-menu(30%, 400px, $primary);
 }
-.hanging-light3{
-  @include hanging-light(38%, 700px, $primary);
+.hanging-menu3{
+  @include hanging-menu(38%, 700px, $primary);
 }
-.hanging-light4{
-  @include hanging-light(46%, 500px, $primary);
+.hanging-menu4{
+  @include hanging-menu(46%, 500px, $primary);
 }
-.hanging-light5{
-  @include hanging-light(52%, 690px, $primary);
+.hanging-menu5{
+  @include hanging-menu(52%, 690px, $primary);
 }
-.hanging-light6{
-  @include hanging-light(60%, 550px, $primary);
+.hanging-menu6{
+  @include hanging-menu(60%, 550px, $primary);
 }
-.hanging-light7{
-  @include hanging-light(70%, 720px, $primary);
+.hanging-menu7{
+  @include hanging-menu(70%, 720px, $primary);
 }
-.hanging-light8{
-  @include hanging-light(24%, 600px, $primary);
+.hanging-menu8{
+  @include hanging-menu(24%, 600px, $primary);
 }
-.hanging-light9{
-	@include hanging-light(74%, 350px, $primary);
+.hanging-menu9{
+	@include hanging-menu(74%, 350px, $primary);
 }
-.hanging-light10{
-	@include hanging-light(80%, 500px, $primary);
+.hanging-menu10{
+	@include hanging-menu(80%, 500px, $primary);
 }
-.hanging-light11{
-	@include hanging-light(86%, 230px, $primary);
+.hanging-menu11{
+	@include hanging-menu(86%, 230px, $primary);
 }
   
 /********* Counter Css *********/

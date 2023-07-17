@@ -7,73 +7,73 @@
             <div class="row">
                 <div class="col-12">
 
-                    <div class="hanging-light0 string">
+                    <div class="hanging-menu0 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/actor.svg" alt="">
                             <span class="mt-2 d-block">Actor</span>
                         </a>
                     </div>
-                    <div class="hanging-light string">
+                    <div class="hanging-menu string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/script-writer-editor.svg" alt="">
                             <span class="mt-2 d-block">Script Writer/Editor</span>
                         </a>
                     </div>
-                    <div class="hanging-light2 string">
+                    <div class="hanging-menu2 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/singer.svg" alt="">
                             <span class="mt-2 d-block">Singer</span>
                         </a>
                     </div>
-                    <div class="hanging-light3 string">
+                    <div class="hanging-menu3 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/dancer.svg" alt="">
                             <span class="mt-2 d-block">Dancer</span>
                         </a>
                     </div>
-                    <div class="hanging-light4 string">
+                    <div class="hanging-menu4 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/production-designer.svg" alt="">
                             <span class="mt-2 d-block">Production Designer</span>
                         </a>
                     </div>
-                    <div class="hanging-light5 string">
+                    <div class="hanging-menu5 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/choreographer.svg" alt="">
                             <span class="mt-2 d-block">Choreographer</span>
                         </a>
                     </div>
-                    <div class="hanging-light6 string">
+                    <div class="hanging-menu6 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/music.svg" alt="">
                             <span class="mt-2 d-block">Music Composer</span>
                         </a>
                     </div>
-                    <div class="hanging-light7 string">
+                    <div class="hanging-menu7 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/cinematographer-dop.svg" alt="">
                             <span class="mt-2 d-block">Cinematographer /Dop</span>
                         </a>
                     </div>
-                    <div class="hanging-light8 string">
+                    <div class="hanging-menu8 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/makeup-artist.svg" alt="">
                             <span class="mt-2 d-block">Makeup Artist</span>
                         </a>
                     </div>
-                    <div class="hanging-light9 string">
+                    <div class="hanging-menu9 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/costume-supervisor.svg" alt="">
                             <span class="mt-2 d-block">Costume Supervisor</span>
                         </a>
                     </div>
-                    <div class="hanging-light10 string">
+                    <div class="hanging-menu10 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/vfx-supervisor.svg" alt="">
                             <span class="mt-2 d-block">Vfx Supervisor</span>
                         </a>
                     </div>
-                    <div class="hanging-light11 string">
+                    <div class="hanging-menu11 string">
                         <a href="javascript:void(0);" class="menu-hanging">
                             <img src="./public/images/svg/production-designer.svg" alt="">
                             <span class="mt-2 d-block">Production Designer</span>
@@ -282,7 +282,7 @@
             </div>
             
             <div class="about-img-1 d-none d-md-block"><img src="./public/images/png/about-img-1.png" alt="About"></div>
-            <div class="about-img-2 d-none d-md-block"><img src="./public/images/svg/about-img-2.svg" alt="About"></div>
+            <div class="about-img-2 d-none d-md-block"><img src="./public/images/png/about-img-2.png" alt="About"></div>
             
             <div class="row justify-content-center">
                 <div class="col-md-6" data-aos="fade-up">
